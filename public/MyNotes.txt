@@ -1,0 +1,10 @@
+SearchBar.jsx:
+
+query: 输入的文字    .isSearching: 正在搜索.    lastSearchTime:搜索时间戳 .   
+searchTimeoutRef: 防抖定时器的id.   inputRef: 输入框
+
+我看了SearchBar.jsx组件 ,发现有一些可以优化, 1.异步状态处理 ,当前:setIsSearching(false);或许可以改进成: onSearch(query).finally(() => {
+  setIsSearching(false);
+  setLastSearchTime(Date.now());
+});
+确保在请求完成（无论成功失败）后更新状态 . 2.防抖优化:可以提取防抖逻辑为自定义hook . 3.输入验证:添加更严格的输入校验 ,比如提示不能输入中文等 . 请在我的建议上进一步优化完善.
