@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# 忽略public文件夹
+public/github_search提示语句.txt
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
