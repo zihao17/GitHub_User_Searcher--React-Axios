@@ -28,11 +28,29 @@
   border: none;
   outline: none;
   background-color: #f5f5f5;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, border 0.3s;
 }
 
 .search-input:focus {
   background-color: #fff;
+}
+
+.input-error {
+  border: 2px solid #e53935;
+  background-color: #ffebee;
+}
+
+.error-message {
+  color: #e53935;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 5px 10px;
+  background-color: #ffebee;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 600px;
 }
 
 .search-button {
