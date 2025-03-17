@@ -2,6 +2,9 @@
 
 这是一个使用React、Axios、Vite和GitHub API构建的Github用户搜索网页。
 
+- [仓库地址](https://github.com/zihao17/GitHub_User_Searcher--React-Axios/blob/main/README.md)
+- [在线体验地址](https://git-hub-user-searcher-react-axios-4pvvtyznw-zihao17s-projects.vercel.app/)
+
 ## 功能特点
 
 - 搜索GitHub用户
